@@ -1,10 +1,11 @@
-function App() {
+import Header from "./components/Header/Header"
+import Job from "./components/Job/Job"
 
+function App() {
   return (
     <>
-      <h1 className="">
-      Hello world!
-    </h1>
+      <Header />
+      <Job />
     </>
   )
 }

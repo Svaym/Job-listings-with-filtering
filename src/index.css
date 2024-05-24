@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  body {
+    @apply font-medium font-league overflow-x-hidden text-veryDarkCyan bg-lightCyan
+  }
+}
+.container {
+  @apply max-w-7xl mx-auto px-5 w-full md:px-3 xxs:px-2
+}
