@@ -1,11 +1,12 @@
+
 const initialState  = {
-  value: ''
+  searchPosition: ''
 }
 export default function searchReducer(state=initialState, action) {
   switch (action.type) {
     case 'SEARCH_POSITION': {
       return {
-        ...state, value: action.payload
+        ...state, searchPosition: action.payload
       }
     }
     default:

@@ -1,7 +1,12 @@
+// import { setSearchPosition } from "../../Redux/actions/actions"
+// import { connect } from "react-redux"\
+import Search from "../Search/Search"
+
 export default function Header() {
   return (
     <header className="bg-hero-desktop bg-cover bg-no-repeat h-56 flex items-center bg-darkCyan xxs:bg-hero-mobile">
-      <div className="container">
+      {/* <Search /> */}
+      {/* <div className="container">
         <div className="flex items-center">
           <input type="text" className="py-1 w-full px-3 rounded-l-md" placeholder="Search" />
           <button className="bg-lightCyan rounded-r-md transition duration-300 ease-in-out p-1 hover:brightness-110">
@@ -10,8 +15,8 @@ export default function Header() {
             </svg>
           </button>
         </div>
-      </div>
-
+      </div> */}
     </header>
   )
 }
+
