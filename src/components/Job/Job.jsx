@@ -13,9 +13,9 @@ export default function Job() {
   // Появления блока фильтрации
   const [click, setClick] = useState(false)
   //  Фильтрация вакансий
-  const filteredJobs = selectedDirection
-    ? data.filter(job => job.direction === selectedDirection)
-    : jobList;
+  // const filteredJobs = selectedDirection
+  //   ? data.filter(job => job.direction === selectedDirection)
+  //   : jobList;
   //  Поискковик
   function searchVacancy() {
     setText('')
